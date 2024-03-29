@@ -1,0 +1,11 @@
+.portfolio-graf {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  height: 400px;
+
+  .chart-container {
+    width: 100%;
+    max-width: 600px;
+  }
+}

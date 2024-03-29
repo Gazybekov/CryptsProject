@@ -1,0 +1,28 @@
+$header-height: 60px;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #001529;
+  .select-container {
+    flex: 1;
+  }
+
+  .ant-select {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .ant-btn {
+    max-width: 300px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .select-icon {
+    width: 20%;
+  }
+}

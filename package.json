@@ -1,0 +1,79 @@
+{
+  "name": "krpoject",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-redux": "^7.1.33",
+    "antd": "^5.14.0",
+    "axios": "^1.6.7",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "sass": "^1.71.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sb": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:storybook/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.0.4",
+    "@storybook/addon-interactions": "^8.0.4",
+    "@storybook/addon-links": "^8.0.4",
+    "@storybook/addon-onboarding": "^8.0.4",
+    "@storybook/blocks": "^8.0.4",
+    "@storybook/preset-create-react-app": "^8.0.4",
+    "@storybook/react": "^8.0.4",
+    "@storybook/react-webpack5": "^8.0.4",
+    "@storybook/test": "^8.0.4",
+    "@types/react": "^18.2.57",
+    "eslint-plugin-storybook": "^0.8.0",
+    "jest": "^27.5.1",
+    "prop-types": "^15.8.1",
+    "react-scripts": "^5.0.1",
+    "storybook": "^8.0.4",
+    "typescript": "^4.9.5",
+    "webpack": "^5.90.3"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [
+    "ts",
+    "typescript",
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "Adilet",
+  "license": "ISC"
+}
